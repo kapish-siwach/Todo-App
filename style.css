@@ -1,0 +1,48 @@
+body{
+    background-image: linear-gradient(to left, rgba(218, 41, 41, 0.1) , rgba(234, 54, 54,0.2)) !important;
+
+}
+
+#msg{
+    color: red !important;
+}
+.content{
+    height: 90vh;
+    width: 24rem;
+    background: transparent;
+    background-image: linear-gradient(350deg, rgba(185, 183, 57, 0.1) , rgba(126, 74, 74, 0.01)) !important;
+    overflow: auto;
+    scrollbar-width: thin;
+    scroll-behavior: smooth;
+    scrollbar-color: rgba(0, 0, 119, 0.192) #17181400;
+}
+
+.modal-content{
+    background-image: -webkit-linear-gradient(20deg, rgba(49, 107, 138, 0.171) , rgba(12,43,54,0.01));
+}
+
+.form-control
+{
+    background-image: -webkit-linear-gradient(200deg, rgba(49, 107, 138, 0.171) , rgba(12,43,54,0.01));
+
+}
+.taskdiv{
+    border:2px solid green;
+    border-radius: 10px;
+    padding: 3vh;
+    overflow: auto;
+    scrollbar-width:thin;
+    scrollbar-color:darkgreen;
+    margin: 1vh 0 ;
+    text-wrap:wrap;
+}
+.options{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.options i{
+    padding: 2px;
+    margin: 0px 2px;
+    font-size: large;
+}
